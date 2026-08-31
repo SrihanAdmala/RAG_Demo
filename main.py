@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
 
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("AI_API_KEY")
 
 llm = ChatOpenAI(model_name = "gpt-3.5-turbo", temperature = 0)
 
